@@ -24,29 +24,9 @@ public class DBConnection {
         } catch (SQLException e) {
 
             System.out.println("Connection Failed.");
-            e.printStackTrace();
-
         }
 
         return connection;
     }
 
-    public static void closeConnection() {
-
-        try {
-
-            if (connection != null && !connection.isClosed()) {
-
-                connection.close();
-                System.out.println("Database connection closed.");
-
-            }
-
-        } catch (SQLException e) {
-
-            e.printStackTrace();
-
-        }
-
-    }
 }

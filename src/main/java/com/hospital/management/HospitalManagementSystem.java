@@ -4,7 +4,6 @@ import com.hospital.management.DAO.*;
 import com.hospital.management.model.*;
 import com.hospital.management.reports.PatientDoctorReport;
 
-import javax.print.Doc;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.List;

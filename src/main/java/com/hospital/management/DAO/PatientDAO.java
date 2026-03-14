@@ -103,7 +103,7 @@ public class PatientDAO {
             }
 
         } catch (Exception e) {
-            System.out.println("Error finding patient");;
+            System.out.println("Error finding patient");
         }
 
         return patients;

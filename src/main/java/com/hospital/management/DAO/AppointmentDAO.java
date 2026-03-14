@@ -30,7 +30,6 @@ public class AppointmentDAO {
 
         } catch (SQLException e) {
             System.out.println("Error creating appointment.");
-            e.printStackTrace();
         }
     }
     public void getAllAppointments() {
@@ -65,7 +64,6 @@ public class AppointmentDAO {
 
         } catch (SQLException e) {
             System.out.println("Error retrieving appointments.");
-            e.printStackTrace();
         }
     }
 }
