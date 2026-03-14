@@ -83,7 +83,7 @@ public class DoctorDAO {
             }
 
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println("Error finding doctor "+ e.getMessage());
         }
 
         return doctors;
