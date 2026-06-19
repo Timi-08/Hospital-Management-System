@@ -34,8 +34,7 @@ A Java-based console application designed to manage hospital operations efficien
 - Java
 - Object-Oriented Programming (OOP)
 - Collections Framework
-- File Handling (Optional)
-- JDBC and MySQL (Optional if database is used)
+- JDBC and MySQL
 
 ## Object-Oriented Design Principles
 
